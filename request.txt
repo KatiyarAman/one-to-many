@@ -1,0 +1,34 @@
+http://127.0.0.1:8080/question/create --->post
+{
+  
+    "questionName":"what is the meaning of mapping",
+    "answerList":[
+        {
+            "answerName":"hibernate ampping"
+        },{
+            "answerName":"hibernate mapping cascade"
+        },
+        {
+            "answerName":"mapping dummy"
+        },
+      {
+        "answerName":"mapping"
+        }
+    ]
+}
+
+http://127.0.0.1:8080/question/list ---> get 
+
+http://127.0.0.1:8080/answer/create --->post
+{
+  "answerName":"hello answer",
+  "question":{
+    "questionName":"hellow question"
+   }
+}
+
+
+http://127.0.0.1:8080/answer/list  --->get
+
+
+
